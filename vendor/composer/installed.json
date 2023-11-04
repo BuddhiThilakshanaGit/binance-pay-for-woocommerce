@@ -1,0 +1,44 @@
+{
+    "packages": [
+        {
+            "name": "beycanpress/currency-converter",
+            "version": "0.1.2",
+            "version_normalized": "0.1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BeycanPress/currency-converter-php.git",
+                "reference": "887dc3c19ebcf2669568a1f955cb007affbf2663"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BeycanPress/currency-converter-php/zipball/887dc3c19ebcf2669568a1f955cb007affbf2663",
+                "reference": "887dc3c19ebcf2669568a1f955cb007affbf2663",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "time": "2023-10-02T06:01:32+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "BeycanPress\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "It takes on the task of converting between fiat and cryptocurrencies.",
+            "homepage": "https://github.com/BeycanPress/currency-converter-php",
+            "support": {
+                "issues": "https://github.com/BeycanPress/currency-converter-php/issues",
+                "source": "https://github.com/BeycanPress/currency-converter-php/tree/0.1.2"
+            },
+            "install-path": "../beycanpress/currency-converter"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

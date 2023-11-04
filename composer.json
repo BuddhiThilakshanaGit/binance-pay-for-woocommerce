@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "psr-4": {
+            "BeycanPress\\BinancePay\\": "app"
+        }
+    },
+    "require": {
+        "beycanpress/currency-converter": "^0.1.2"
+    }
+}
