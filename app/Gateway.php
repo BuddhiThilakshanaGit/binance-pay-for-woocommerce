@@ -241,6 +241,14 @@ class Gateway extends \WC_Payment_Gateway
                         }
                     ?>
                 </select>
+                <br>
+                <br>
+                <div class="bp-footer">
+                    <span class="powered-by">
+                        Powered by
+                    </span>
+                    <a href="https://beycanpress.com/cryptopay?utm_source=binance_pay_plugin&amp;utm_medium=powered_by" target="_blank">CryptoPay</a>
+                </div>
             </div>
         <?php
     }
