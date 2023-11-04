@@ -10,7 +10,7 @@ Binance Pay Payment Gateway for WooCommerce is a payment gateway integrated into
 ![Multi-currency](https://i.ibb.co/ngm8JKG/Screenshot-3.png)
 
 ### Supports webhook
-![Webhook](https://i.ibb.co/ngm8JKG/Screenshot-4.png)
+![Webhook](https://i.ibb.co/v49SKvb/Screenshot-4.png)
 
 See: **<a href="https://developers.binance.com/docs/binance-pay/authentication" target="_blank">Documentation</a>**
 
