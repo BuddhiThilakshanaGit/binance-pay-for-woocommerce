@@ -42,7 +42,7 @@ You can easily translate with Loco translate.
 == Installation ==
 
 1. Upload the entire `/binance-pay-for-woocommerce` directory to the `/wp-content/plugins/` directory.
-2. Activate CryptoPay Lite through the 'Plugins' menu in WordPress.
+2. Activate Binance Pay for WooCommerce through the 'Plugins' menu in WordPress.
 3. Enjoy.
 
 == Changelog ==

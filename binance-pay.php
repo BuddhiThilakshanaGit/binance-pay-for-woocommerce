@@ -19,6 +19,8 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
+new \BeycanPress\BinancePay\OtherPlugins(__FILE__);
+
 add_action('plugins_loaded', function () {
     add_filter('woocommerce_payment_gateways', function($gateways) {
         $gateways[] = \BeycanPress\BinancePay\Gateway::class;
