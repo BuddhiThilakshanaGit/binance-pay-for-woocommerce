@@ -13,7 +13,7 @@
  * Domain Path: /languages
  * Tags:        Binance Pay, Cryptocurrency, WooCommerce, WordPress, Ethereum, Bitcoin, Payment, Gateway, Plugin
  * Requires at least: 5.0
- * Tested up to: 6.4
+ * Tested up to: 6.4.2
  * Requires PHP: 7.4
 */
 

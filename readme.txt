@@ -2,7 +2,7 @@
 Contributors: BeycanPress
 Tags: woocommerce, payment gateway, binance, binancepay, crypto, cryptocurrency, crypto payment, crypto payment gateway, crypto payment
 Requires at least: 5.0
-Tested up to: 6.4
+Tested up to: 6.4.2
 Requires PHP: 7.4
 Stable Tag: 1.0.1
 Version: 1.0.1
