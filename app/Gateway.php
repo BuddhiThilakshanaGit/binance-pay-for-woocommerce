@@ -41,8 +41,8 @@ class Gateway extends \WC_Payment_Gateway
         $options = '';
     
         if ( ! empty( $args['options'] ) ) {
-            foreach ( $args['options'] as $option_key => $option_text ) {
-                $options .= '<option value="' . $option_key . '" '. selected( $value, $option_key, false ) . '>' . $option_text .'</option>';
+            foreach ( $args['options'] as $optionKey => $optionText ) {
+                $options .= '<option value="' . esc_attr($optionKey) . '" '. selected( $value, $optionText, false ) . '>' . esc_html($optionText) .'</option>';
             }
     
             if ($args['required']) {
@@ -53,12 +53,12 @@ class Gateway extends \WC_Payment_Gateway
                 $required = '&nbsp;<span class="optional">(' . esc_html__('optional', 'woocommerce') . ')</span>';
             }
     
-            $field = '<p class="form-row ' . implode( ' ', $args['class'] ) .'" id="' . $key . '_field">
-                <label for="' . $key . '" class="' . implode( ' ', $args['label_class'] ) .'">' . $args['label']. $required . '</label>
-                <select name="' . $key . '" id="' . $key . '" class="select" multiple="multiple">
-                    ' . $options . '
+            $field = '<p class="form-row ' . implode( ' ', $args['class'] ) .'" id="' . esc_attr($key) . '_field">
+                <label for="' . esc_attr($key) . '" class="' . implode( ' ', $args['label_class'] ) .'">' . esc_html($args['label']). esc_html($required) . '</label>
+                <select name="' . esc_attr($key) . '" id="' . esc_attr($key) . '" class="select" multiple="multiple">
+                    ' . wp_kses_post($options) . '
                 </select>
-            </p>' . $args['after'];
+            </p>' . wp_kses_post($args['after']);
         }
     
         return $field;
@@ -237,7 +237,7 @@ class Gateway extends \WC_Payment_Gateway
                             $accepted_currencies = ['USDT'];
                         }
                         foreach ($accepted_currencies as $currency) {
-                            echo '<option value="'.$currency.'">'.$currency.'</option>';
+                            echo '<option value="'.esc_attr($currency).'">'.esc_html($currency).'</option>';
                         }
                     ?>
                 </select>
