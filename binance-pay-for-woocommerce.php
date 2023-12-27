@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Binance Pay for WooCommerce
  * Version:     1.0.1
- * Plugin URI:  https://beycanpress.com/
+ * Plugin URI:  https://wordpress.org/plugins/binance-pay-for-woocommerce/
  * Description: Binance Pay payment gateway for WooCommerce
  * Author:      BeycanPress LLC
  * Author URI:  https://beycanpress.com/
