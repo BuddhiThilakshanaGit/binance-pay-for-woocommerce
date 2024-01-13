@@ -172,6 +172,11 @@ class Gateway extends \WC_Payment_Gateway
 				'default'     => null,
 				'desc_tip'    => true,
             ),
+            'location_desc' => array(
+                'title'       => esc_html__('Eligibility Information', 'binance_pay_gateway'),
+                'type'        => 'title',
+                'description' => esc_html__('If you receive the following warning, it means that Binance Pay is not supported in your location. For more information, please refer to the Binance Pay terms and API pages.', 'binance_pay_gateway') . '<br><br>' . esc_html__('Service unavailable from a restricted location according to \'b. Eligibility\' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error.', 'binance_pay_gateway'),
+            ),
             'binance_webhook_url' => array(
                 'title'       => esc_html__('Webhook URL: ', 'binance_pay_gateway') . home_url('wc-api/binance-pay-gateway/webhook'),
                 'type'        => 'title',
