@@ -250,7 +250,7 @@ class BinanceService
 		if ($response->status == 'SUCCESS') {
             return $response->data;
         } else {
-            throw new Exception($response->errorMessage, $response->code);
+            throw new Exception($response->errorMessage ?? $response->msg, $response->code);
         }
 
 		curl_close($curl); 

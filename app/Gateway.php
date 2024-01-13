@@ -197,7 +197,7 @@ class Gateway extends \WC_Payment_Gateway
 			Notice::addNotice('success', 'Successfully fetched certificate (for validating webhooks) from Binance.');
 
 		} catch (\Throwable $e) {
-			Notice::addNotice('error', 'Error fetching certificate from Binance.' . $e->getMessage());
+			Notice::addNotice('error', 'Error fetching certificate from Binance. Because of reason: ' . $e->getMessage());
 		}
 
 	}
